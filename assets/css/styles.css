@@ -1,0 +1,10 @@
+body {
+    background-color: #111111;
+
+}
+
+.jumbotron {
+    margin-top: 2rem;
+    background-image: linear-gradient(to right, #DDDDDD, #111111
+    );
+}
