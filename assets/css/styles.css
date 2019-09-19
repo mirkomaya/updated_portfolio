@@ -1,10 +1,55 @@
 body {
-    background-color: #111111;
-
+    background-color: #101010;
 }
 
 .jumbotron {
     margin-top: 2rem;
-    background-image: linear-gradient(to right, #DDDDDD, #111111
-    );
+    background-image: linear-gradient(to right, #DDDDDD, #101010);
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF;
 }
+
+/* .main-title {
+    margin-top: 2rem;
+    background-image: linear-gradient(to right, #DDDDDD, #101010);
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF;
+} */
+
+.projects-title {
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.projects {
+    font-family: 'Playfair Display', serif;
+}
+
+.card {
+    border-radius: 0rem;
+}
+
+.card-title {
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
+.card-body {
+    padding: 0.75rem;
+}
+
+.card-img-top {
+    object-fit: contain;
+    border-radius: 0rem;
+
+
+
+}
+/* .container {
+    font-family: 'Playfair Display', serif;
+}
+
+.card-columns {
+    width: 960px;
+} */
