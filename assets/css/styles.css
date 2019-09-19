@@ -42,10 +42,17 @@ body {
 .card-img-top {
     object-fit: contain;
     border-radius: 0rem;
-
-
-
 }
+
+.card-neo {
+    background-color: #101010 !important;
+}
+
+.img-zero {
+    opacity: 0.0;
+}
+
+
 /* .container {
     font-family: 'Playfair Display', serif;
 }
