@@ -28,7 +28,10 @@ body {
     font-family: 'Roboto Slab', serif;
     color: #FFFFFF;
     margin-bottom: 2rem;
+}
 
+.pro-title {
+    margin-bottom: 1rem;
 }
 
 .projects-div {
