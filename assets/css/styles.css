@@ -9,11 +9,12 @@ body {
     font-family: 'Roboto Slab', serif;
     color: #FFFFFF;
     text-shadow: 2px 2px #101010;
+    margin-bottom: 1rem;
+
 
 
 
     /* font-family: 'Cormorant Garamond', serif; */
-    /* font-family: 'Pacifico', cursive; */
 }
 
 /* .main-title {
@@ -27,11 +28,17 @@ body {
     font-family: 'Roboto Slab', serif;
     color: #FFFFFF;
     margin-bottom: 2rem;
+
+}
+
+.projects-div {
+    margin-top: 1rem;
+    color: #101010;
 }
 
 .projects {
     /* font-family: 'Playfair Display', serif; */
-    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Roboto Slab', serif; */
 
 }
 
@@ -44,12 +51,14 @@ body {
 }
 
 .card-title {
-    margin-bottom: 0rem;
-    text-align: center;
+    margin-bottom: .75rem;
+    /* text-align: center; */
+    font-family: 'Roboto Slab', serif;
+
 }
 
 .card-body {
-    padding: 0.75rem;
+    padding: 1.25rem;
 }
 
 .card-img-top {
@@ -57,16 +66,18 @@ body {
     border-radius: 0rem;
 }
 
-.card-neo {
-    background-color: #101010 !important;
-}
-
 .img-zero {
     opacity: 0.0;
 }
 
 .giphy-text {
-    font-family: 'Press Start 2P', cursive;
+    /* font-family: 'Press Start 2P', cursive; */
+}
+
+.band-text {
+    font-family: 'Pacifico', cursive;
+
+
 }
 
 .rounded-circle {
@@ -89,9 +100,15 @@ body {
 } */
 
 @media screen and (max-width: 576px) {
+
     .card {
         width: 75%;
         display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .projects-title, .projects-div {
         margin-left: auto;
         margin-right: auto
     }
