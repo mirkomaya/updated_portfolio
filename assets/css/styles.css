@@ -3,10 +3,17 @@ body {
 }
 
 .jumbotron {
-    margin-top: 2rem;
-    background-image: linear-gradient(to right, #DDDDDD, #101010);
-    font-family: 'Playfair Display', serif;
+    /* margin-top: 2rem; */
+    /* background-image: linear-gradient(to right, #DDDDDD, #101010); */
+    background-image: linear-gradient(#DDDDDD, #101010);
+    font-family: 'Roboto Slab', serif;
     color: #FFFFFF;
+    text-shadow: 2px 2px #101010;
+
+
+
+    /* font-family: 'Cormorant Garamond', serif; */
+    /* font-family: 'Pacifico', cursive; */
 }
 
 /* .main-title {
@@ -17,17 +24,23 @@ body {
 } */
 
 .projects-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
     color: #FFFFFF;
     margin-bottom: 2rem;
 }
 
 .projects {
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Roboto Slab', serif;
+
 }
 
 .card {
     border-radius: 0rem;
+}
+
+.bg-dark {
+    /* opacity: 0.5; */
 }
 
 .card-title {
@@ -50,6 +63,10 @@ body {
 
 .img-zero {
     opacity: 0.0;
+}
+
+.giphy-text {
+    font-family: 'Press Start 2P', cursive;
 }
 
 .rounded-circle {
