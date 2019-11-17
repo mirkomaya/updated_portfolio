@@ -12,6 +12,16 @@ body {
     /* font-family: 'Cormorant Garamond', serif; */
 }
 
+.jumbotron-2 {
+    background-image: linear-gradient(#DDDDDD, #101010);
+    font-family: 'Roboto Slab', serif;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #101010;
+    margin-bottom: 1rem;
+
+    /* font-family: 'Cormorant Garamond', serif; */
+}
+
 .tran-btm {
     background-image: linear-gradient(#101010, #DDDDDD) !important;
     margin-bottom: 0rem;
@@ -80,7 +90,14 @@ body {
 
 @media screen and (max-width: 576px) {
 
+    body {
+        overflow-x: hidden;
+        position: relative;
+        width: 100%;
+    }
+
     .container {
+
         padding-right: 0px;
         padding-left: 0px;
     }
