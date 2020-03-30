@@ -2,6 +2,29 @@ body {
     background-color: #101010;
 }
 
+.bio {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 28px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.logo {
+    width: 450px;
+}
+
+.carSize {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
 .jumbotron {
     background-image: linear-gradient(#DDDDDD, #101010);
     font-family: 'Roboto Slab', serif;
@@ -20,6 +43,13 @@ body {
     margin-bottom: 1rem;
 
     /* font-family: 'Cormorant Garamond', serif; */
+}
+
+.aboutCard {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tran-btm {
@@ -82,10 +112,15 @@ body {
 
 .rounded-circle {
     border-radius: 50%!important;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(133, 13, 13, 0.19); */
+    border: 1px solid #ffff;
+    /* padding: 5px; */
+    margin-bottom: 45px;
+    margin-top: 30px;
+
 }
 
 @media screen and (max-width: 576px) {
